@@ -32,7 +32,7 @@ header{
 }
 
 a.header_link{
-  color: rgb(180, 180, 180);
+  color: rgb(200, 200, 200);
 }
 
 a:hover.header_link{
@@ -136,6 +136,7 @@ a:hover.header_link{
   }
   .hamburger-demo-menulist li a{
     text-decoration: none;
+    color: whitesmoke; /* メニューリストの文字色 */
     display: block;
     padding: .5em 0;
   }
@@ -161,11 +162,11 @@ a:hover.header_link{
   width: 100%;
   height: 400px;
   background-color: rgb(240, 240, 240) ;
-  animation: veil-color 10s infinite;
-  -webkit-animation: veil-color 10s infinite;
+  animation: bg-color 10s infinite;
+  -webkit-animation: bg-color 10s infinite;
 }
 
-@-webkit-keyframes veil-color {
+@-webkit-keyframes bg-color {
   0% { background-color: rgb(240, 240, 240); }
   10% { background-color: rgb(240, 210, 210); }
   20% { background-color: rgb(240, 230, 210); }
@@ -179,7 +180,7 @@ a:hover.header_link{
   100% { background-color: rgb(240, 240, 240); }
 }
 
-@keyframes veil-color {
+@keyframes bg-color {
   0% { background-color: rgb(240, 240, 240); }
   10% { background-color: rgb(240, 210, 210); }
   20% { background-color: rgb(240, 230, 210); }
@@ -197,25 +198,37 @@ a:hover.header_link{
   height: 100%;
   width: 2%;
   margin-left: 10%;
-  background-color: rgb(60, 90, 90);
-  animation: veil_line_color 10s infinite;
-  -webkit-animation: veil_line_color 10s infinite;
+  background-color: rgb(40, 65, 65);
+  animation: veil-color 10s infinite;
+  -webkit-animation: veil-color 10s infinite;
 }
 
-@-webkit-keyframes veil_line_color {
-  0% { background-color: rgb(60, 90, 90); }
-  25% { background-color: rgb(60, 60, 90); }
-  50% { background-color: rgb(78, 60, 90); }
-  75% { background-color: rgb(60, 60, 90); }
-  100% { background-color: rgb(60, 90, 90); }
+@-webkit-keyframes veil-color {
+  0% { background-color: rgb(40, 65, 65); }
+  10% { background-color: rgb(40, 50, 65); }
+  20% { background-color: rgb(48, 40, 65); }
+  30% { background-color: rgb(65, 40, 60); }
+  40% { background-color: rgb(65, 40, 40); }
+  50% { background-color: rgb(65, 60, 40); }
+  60% { background-color: rgb(58, 65, 40); }
+  70% { background-color: rgb(44, 65, 40); }
+  80% { background-color: rgb(40, 65, 50); }
+  90% { background-color: rgb(40, 65, 60); }
+  100% { background-color: rgb(40, 65, 65); }
 }
 
-@keyframes veil_line_color {
-  0% { background-color: rgb(60, 90, 90); }
-  25% { background-color: rgb(60, 60, 90); }
-  50% { background-color: rgb(78, 60, 90); }
-  75% { background-color: rgb(60, 60, 90); }
-  100% { background-color: rgb(60, 90, 90); }
+@keyframes veil-color {
+  0% { background-color: rgb(40, 65, 65); }
+  10% { background-color: rgb(40, 50, 65); }
+  20% { background-color: rgb(48, 40, 65); }
+  30% { background-color: rgb(65, 40, 60); }
+  40% { background-color: rgb(65, 40, 40); }
+  50% { background-color: rgb(65, 60, 40); }
+  60% { background-color: rgb(58, 65, 40); }
+  70% { background-color: rgb(44, 65, 40); }
+  80% { background-color: rgb(40, 65, 50); }
+  90% { background-color: rgb(40, 65, 60); }
+  100% { background-color: rgb(40, 65, 65); }
 }
 
 main{
