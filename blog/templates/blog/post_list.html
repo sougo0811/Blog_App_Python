@@ -1,20 +1,26 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-  
+<div class="space"><h1><b>やといのぶろぐたち</b></h1></div>
+<div class="blog_list">
+  <ul class="contents">
   {% for post in posts %}
-    <ul class="post contents">
+    <div class="post">
       <li class="item">
-        <div class="date">
-          {{ post.published_date }}
+        <div class="date_block">
+          <div class="pub_day">公開日</div>
+          <div class="date">
+            {{ post.published_date }}
+          </div>
         </div>
         <div class="blog_title">
           <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
         </div>
         <!-- <p>{{ post.text|linebreaksbr }}</p> -->
       </li>
-    </ul>
-
+    </div>
   {% endfor %}
-  
+  </ul>
+</div>
+<div class="space"></div>
 {% endblock %}
