@@ -1,0 +1,16 @@
+{% extends 'blog/base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+<div class="space"></div>
+<div class="blog_list">
+  <div class="post contents">
+    <div class="title">記事を書く</div><br><br>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {% bootstrap_form form layout="horizontal" %}
+        <button type="submit" class="save btn btn-default">保存</button>
+    </form>
+  </div>
+</div>
+<div class="space"></div>
+{% endblock %}

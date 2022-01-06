@@ -22,7 +22,7 @@ header{
 .header_icon{
   float: left;
   padding-left: 20px;
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 .header_links{
@@ -64,6 +64,7 @@ a:hover.header_link{
 
 .header_link{
   font-weight: bold;
+  font-size: 1.25vw;
 }
 
 /* hamburgerここから */
@@ -308,6 +309,26 @@ a.blog_title{
 .blog_text{
   padding-top: 20px;
   line-height: 50px;
+}
+
+.col-form-label{
+  padding-left: 30px;
+}
+
+.form-control{
+  margin-bottom: 30px;
+}
+
+.add{
+  margin: 0 45%;
+}
+
+.save{
+  margin:0 45%;
+}
+
+.edit{
+  margin: 0 45% 30px 45%;
 }
 
 footer{
