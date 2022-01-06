@@ -243,9 +243,9 @@ main{
 
 .contents{
   height: 100%;
-  width: 70%;
+  width: 80%;
   background-color:  white;
-  margin: 0 15% 0 auto;
+  margin: 0 10% 0 auto;
   padding: 5% 0 10% 0;
 
 }
@@ -266,7 +266,7 @@ main{
   color: white;
   width: 64px;
   height: 100%;
-  padding: 1% 2%;
+  padding: 1% 10px;
 }
 
 .date{
@@ -277,14 +277,37 @@ main{
 
 .blog_title{
   padding-top: 10px;
-  padding-left: 100px;
+  padding-left: 85px;
   font-family: sans-serif;
   font-weight: bold;
 }
 
 a.blog_title{
   text-decoration: none;
-  color: red;
+}
+
+.title{
+  font-weight: bold;
+  float: left;
+  padding: 7.5px;
+  background-color: #28282e;
+  color: white;
+}
+
+.detail_title{
+  padding: 10px 0 0 100px;
+  font-weight: bold;
+}
+
+.detail_date{
+  margin: -24px 0 0 0;
+  color: gray;
+  float: right;
+}
+
+.blog_text{
+  padding-top: 20px;
+  line-height: 50px;
 }
 
 footer{
