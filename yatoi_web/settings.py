@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+#DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_COOKIE_SECURE = True
-SESSION_COOKIE_SECURE = True
+#CSRF_COOKIE_SECURE = True
+#SESSION_COOKIE_SECURE = True
