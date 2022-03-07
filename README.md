@@ -17,3 +17,6 @@ yatoi_venv\Scripts\activate
 
 ## WEBサーバーの起動
 python manage.py runserver
+
+## ブログのリンク
+[yatoi_blog](https://yat0i.pythonanywhere.com/)
