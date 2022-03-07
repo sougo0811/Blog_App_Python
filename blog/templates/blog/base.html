@@ -19,7 +19,7 @@
     <div class="header_line">
       <div class="header_icon"><img src="{% static 'images/見上げる猫.png' %}" alt="ホームページアイコン" class="icon" width="75" height="75"></div>
       <div class="header_links row">
-        <div class="blog_name col-3"><a class="header_link underline" href="/">yatoi_blog</a></div>
+        <div class="blog_name col-2"><a class="header_link underline" href="/">yatoi_blog</a></div>
         {% if user.is_authenticated %}
           <div class="col-2"><a class="header_link underline" href="{% url 'post_new' %}">追加</a></div>
         {% else %}
