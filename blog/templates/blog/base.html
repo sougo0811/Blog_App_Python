@@ -23,10 +23,10 @@
         {% if user.is_authenticated %}
           <div class="col-2"><a class="header_link underline" href="{% url 'post_new' %}">追加</a></div>
         {% else %}
-          <div class="col-2"><a class="header_link underline" href="/">リンク1</a></div>
+          <div class="col-2"><a class="header_link underline" href="/">リンク１</a></div>
         {% endif %}
-        <div class="col-2"><a class="header_link underline" href="/">リンク2</a></div>
-        <div class="col-2"><a class="header_link underline" href="/">リンク3</a></div>
+        <div class="col-2"><a class="header_link underline" href="http://127.0.0.1:8000/admin/blog/post/add/">記事作成</a></div>
+        <div class="col-2"><a class="header_link underline" href="http://127.0.0.1:8000/admin/">管理画面</a></div>
       </div>
     </div>
 
