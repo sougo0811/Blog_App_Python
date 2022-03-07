@@ -1,0 +1,12 @@
+.main{
+  height: 600px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.canvas{
+  width: 85%;
+  height: 100%;
+  background-color: white;
+  margin: 0 7.5% 0 7.5%;
+}
