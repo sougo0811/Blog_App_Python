@@ -4,7 +4,7 @@
 最終更新日　2022/03/07<br>
 言語：Python<br>
 
-## yatoiのwebアプリ<br>
+## yatoiのblogApp<br>
 <strong>今あるもの</strong><br>
 ・ブログアプリ(完成) (チュートリアル)
 
